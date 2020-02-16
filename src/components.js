@@ -82,9 +82,7 @@ export default function (editor, opt = {}) {
           var google = function() {
             var startTimeG, endTimeG;
             
-            console.info(allDay, allDay.indexOf('YES') != -1);
             if (allDay.indexOf('YES') != -1) {
-              console.info('isAllday');
               // google wants 2 consecutive days at 00:00
               startTimeG = formatTime(startTime);
               endTimeG = formatTime(getEndDate(endTime, 60 * 24));
@@ -111,7 +109,6 @@ export default function (editor, opt = {}) {
                 startTimeG = startTimeG.substring(0, startTimeG.length - 1);
                 endTimeG = endTimeG.substring(0, endTimeG.length - 1);
               } else {
-                console.info('NOTHING', startTime);
                 // use regular times
                 startTimeG = formatTime(startTime);
                 endTimeG = formatTime(endTime);
