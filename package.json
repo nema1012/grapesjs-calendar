@@ -1,6 +1,6 @@
 {
   "name": "grapesjs-calendar",
-  "version": "1.0.21",
+  "version": "0.0.1",
   "description": "Grapesjs Calendar",
   "main": "dist/grapesjs-calendar.min.js",
   "repository": {
