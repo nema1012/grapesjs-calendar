@@ -32,8 +32,8 @@ export default (editor, opts = {}) => {
     min-width: 160px;
     z-index: 1;
     position: absolute;
-    opacity: initial
-    background-color: white
+    opacity: initial;
+    background-color: white;
   }
   
   /* Links inside the dropdown */
@@ -45,7 +45,7 @@ export default (editor, opts = {}) => {
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd}
+  .dropdown-content a:hover {background-color: #ddd;}
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .dropdown-content.show {
