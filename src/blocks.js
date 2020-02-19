@@ -34,6 +34,9 @@ export default (editor, opts = {}) => {
     position: absolute;
     opacity: initial;
     background-color: white;
+    z-index: 50; 
+    left: auto;
+    top: auto;
   }
   
   /* Links inside the dropdown */
